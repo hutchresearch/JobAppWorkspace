@@ -1,6 +1,8 @@
 # JobAppWorkspace
 
 A small, collaborative workspace for building resumes and cover letters in the lab.
+Covered in this tutorial: https://docs.google.com/presentation/d/1gVLBdXAYfQtebeNFwlMu-YpJRynHwsLlNmLq3OXxAo4/edit?usp=sharing
+
 Resumes are written as [RenderCV](https://github.com/rendercv/rendercv) YAML (→ Typst → PDF);
 cover letters are LaTeX with a script to compile + archive per-company copies.
 
