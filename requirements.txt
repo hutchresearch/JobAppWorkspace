@@ -1,0 +1,6 @@
+# Resume rendering. The [full] extra bundles Typst, so no separate Typst install is needed.
+# Pinned to the version the Education-gap patch in the README is verified against (see "Known issue").
+rendercv[full]==2.6
+
+# Note: cover letters also need a LaTeX engine (pdflatex), which is NOT a pip package.
+# Install MiKTeX separately: https://miktex.org/

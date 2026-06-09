@@ -1,0 +1,145 @@
+cv:
+  name: Jane Doe
+  headline:
+  location: Anytown, USA
+  email: jane.doe@example.com
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: jane-doe
+    - network: GitHub
+      username: janedoe
+  custom_connections:
+  sections:
+    About Me:
+      - One genuine sentence about who you are and the kind of work you care about.
+    education:
+      - institution: State University
+        area: 'Computer Science | 4.00 GPA'
+        degree: MS
+        date: Sep 2024 – Jun 2026
+        location: Anytown, USA
+      - institution: State University
+        area: 'Computer Science | 3.80 GPA'
+        degree: BS
+        date: Sep 2020 – Jun 2024
+        location: Anytown, USA
+    experience:
+      - company: Example Company
+        position: Software Engineering Intern
+        date: Jun 2025 – Aug 2025
+        location: Remote
+        highlights:
+          - Built a thing that did X, achieving a measurable Y improvement using Z.
+          - Collaborated with team members to ship a feature used by N people.
+      - company: Research Lab
+        position: Research Assistant
+        date: Sep 2024 – Present
+        location: Anytown, USA
+        highlights:
+          - Developed models / pipelines / tooling for some research problem, reaching a concrete metric.
+          - Re-engineered a slow workflow, cutting runtime from A to B.
+    projects:
+      - name: Cool Project (Python, React, REST APIs)
+        highlights:
+          - One line on what it is and the interesting technical part.
+          - One line on impact, performance, or what you learned.
+    skills:
+      - label: Languages
+        details: Python, Java, C, SQL, TypeScript, JavaScript
+      - label: Tools & Frameworks
+        details: Git, Docker, Linux/Unix, Bash/Shell, CI/CD, PyTorch, NumPy
+    involvement:
+      - name: Some Club or Organizing Team
+        date: 2024 – Present
+        highlights:
+          - One line on your role and contribution.
+design:
+  theme: engineeringresumes
+  page:
+    size: us-letter
+    top_margin: 0.3in
+    bottom_margin: 0.3in
+    left_margin: 0.5in
+    right_margin: 0.5in
+    show_footer: false
+    show_top_note: false
+  colors:
+    body: rgb(0, 0, 0)
+  typography:
+    line_spacing: 0.6em
+    font_size:
+      name: 20pt
+  links:
+    underline: true
+  header:
+    space_below_name: 0.4cm
+    space_below_connections: 0.4cm
+  section_titles:
+    space_above: 0.4cm
+    space_below: 0.3cm
+  sections:
+    space_between_regular_entries: 0.0em
+  entries:
+    highlights:
+      space_between_items: 0em
+  templates:
+    footer: "*NAME* -- PAGE_NUMBER/TOTAL_PAGES"
+    top_note: "*LAST_UPDATED* CURRENT_DATE"
+    single_date: MONTH_ABBREVIATION YEAR
+    date_range: START_DATE – END_DATE
+    time_span: (HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS)
+    one_line_entry:
+      main_column: "**LABEL:** DETAILS"
+    education_entry:
+      main_column: |-
+        **INSTITUTION**
+        *AREA*
+        SUMMARY
+        HIGHLIGHTS
+      degree_column: "*DEGREE*"
+      date_and_location_column: |-
+        *LOCATION*
+        *DATE*
+    normal_entry:
+      main_column: |-
+        **NAME**
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        *LOCATION*
+        *DATE*
+    experience_entry:
+      main_column: |-
+        **POSITION**
+        *COMPANY*
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        *LOCATION*
+        *DATE*
+    publication_entry:
+      main_column: |-
+        **TITLE**
+        SUMMARY
+        AUTHORS
+        [JOURNAL]
+      date_and_location_column: DATE
+locale:
+  language: english
+settings:
+  current_date: '2026-01-16'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output\NAME_IN_SNAKE_CASE_Resume.typ
+    pdf_path: rendercv_output\NAME_IN_SNAKE_CASE_Resume.pdf
+    markdown_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+  bold_keywords: []

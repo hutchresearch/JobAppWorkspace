@@ -1,0 +1,21 @@
+# Personal / private — never commit these
+oldletters/
+oldresumes/
+notes.txt
+
+# Your real signature image (drop your own into cl/, it stays local)
+cl/signature.png
+
+# RenderCV build output
+rendercv_output/
+
+# LaTeX aux files
+*.aux
+*.log
+*.out
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc

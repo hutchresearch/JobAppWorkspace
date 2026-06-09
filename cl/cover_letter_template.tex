@@ -1,0 +1,49 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.75\baselineskip}
+
+\begin{document}
+
+\begin{center}
+  {\Large\textbf{[Your Name]}}\\[0.25\baselineskip]
+  [phone]\;\textbar\;\href{mailto:[email]}{[email]}\;\textbar\;\href{https://linkedin.com/in/[handle]}{linkedin.com/in/[handle]}\;\textbar\;[City, State]
+\end{center}
+
+\today
+
+[company]\\
+[company city state (e.g. Seattle, WA)]
+
+\vspace{\baselineskip}
+
+Dear Hiring Manager,
+
+I am writing to apply for the [Position Title] role at [company]. I am excited
+about [1--2 sentences on why this role/company].
+
+[discuss most relevant experience to job desc or company (if nothing is highly
+relevant, discuss most impressive work). Try to show value and measurable impact
+but don't exaggerate]. These experiences align well with your needs in
+[requirement] and [requirement].
+
+I'm eager to discuss how I can contribute to [company]. Thank you for your time
+and consideration.
+
+Sincerely,
+
+% Drop your own signature.png into this folder (it is gitignored, stays local).
+% If no signature.png is present, your typed name is used instead.
+\IfFileExists{signature.png}{%
+  \includegraphics[height=1.6cm]{signature.png}%
+}{%
+  \vspace{1.6cm}[Your Name]%
+}
+
+\end{document}
